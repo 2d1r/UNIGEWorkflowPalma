@@ -11,7 +11,7 @@
       "-c"
  ],
     "command": [
-      "cd Script && nohup /home/denisa/UNIGEWorkflow/Data/WT/UNIGEWorkflow.sh > output.txt 2>&1 &"
+      "cd Script && nohup UNIGEWorkflow.sh > output.txt 2>&1 &"
  ]
   }
 }
