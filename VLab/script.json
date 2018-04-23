@@ -1,0 +1,9 @@
+{
+  "scripts": [
+    {
+      "repoPath": "Script/UNIGEWorkflow.sh",
+      "targetPath": "Script/UNIGEWorkflow.sh",
+      "pathType": "FILE"
+ }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "inputs": [
+    {
+      "id": "DataObject_0h3a3f5",
+      "inputType": "individual",
+      "valueType": "value",
+      "description": "Shapefile of the protected areas in Swiss",
+      "name": "World WPA",
+      "obligation": true,
+      "hasDefault": false,
+      "valueSchema": "url",
+      "target": "Data/One_WDPA.zip"
+ },
+     {
+      "id": "DataObject_0h3a3fg",
+      "inputType": "individual",
+      "valueType": "value",
+      "description": "Shapefile of the byodiversity areas in Swiss",
+      "name": "Swiss KBA",
+      "obligation": true,
+      "hasDefault": false,
+      "valueSchema": "url",
+      "target": "Data/kba_ch_clean.zip"
+ },
+     {
+      "id": "DataObject_0h3a3fh",
+      "inputType": "individual",
+      "valueType": "value",
+      "description": "Input file",
+      "name": "Merge",
+      "obligation": true,
+      "hasDefault": false,
+      "valueSchema": "url",
+      "target": "Data/input.vrt"
+ }
+
+  ],
+  "outputs": [
+      {
+      "id": "DataObject_0n95v56",
+      "outputType": "individual",
+      "valueType": "value",
+      "description": "Output result",
+      "name": "output.txt",
+      "valueSchema": "url",
+      "target": "Data/output.txt"
+ }
+  ]
+}

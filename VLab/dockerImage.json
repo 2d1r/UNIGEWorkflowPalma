@@ -1,0 +1,17 @@
+{
+
+  "image": "geodata/gdal:2.1.3",
+  "resources": {
+    "memory_mb": "5000",
+    "cpu_units": ""
+ },
+  "container": {
+    "entryPoint":
+      "/bin/bash",
+      "-c"
+ ],
+    "command": [
+      "cd Script && nohup /home/denisa/UNIGEWorkflow/Data/WT/UNIGEWorkflow.sh > output.txt 2>&1 &"
+ ]
+  }
+}
