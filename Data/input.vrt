@@ -1,0 +1,10 @@
+<OGRVRTDataSource>
+    <OGRVRTLayer name="kba_ch_clean">
+        <SrcDataSource>kba_ch_clean.shp</SrcDataSource>
+        <SrcLayer>kba_ch_clean</SrcLayer>
+    </OGRVRTLayer>
+    <OGRVRTLayer name="One_WDPA">
+        <SrcDataSource>One_WDPA.shp</SrcDataSource>
+        <SrcLayer>One_WDPA</SrcLayer>
+    </OGRVRTLayer>
+</OGRVRTDataSource>
