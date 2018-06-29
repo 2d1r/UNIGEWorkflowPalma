@@ -9,7 +9,7 @@
       "obligation": true,
       "hasDefault": false,
       "valueSchema": "url",
-      "target": "Data/One_WDPA.zip"
+      "target": "One_WDPA.zip"
  },
      {
       "id": "DataObject_0h3a3fg",
@@ -20,7 +20,7 @@
       "obligation": true,
       "hasDefault": false,
       "valueSchema": "url",
-      "target": "Data/kba_ch_clean.zip"
+      "target": "kba_ch_clean.zip"
  },
      {
       "id": "DataObject_0h3a3fh",
@@ -31,7 +31,7 @@
       "obligation": true,
       "hasDefault": false,
       "valueSchema": "url",
-      "target": "Data/input.vrt"
+      "target": "input.vrt"
  }
 
   ],
@@ -43,7 +43,7 @@
       "description": "Output result",
       "name": "output.txt",
       "valueSchema": "url",
-      "target": "Data/output.txt"
+      "target": "output.txt"
  }
   ]
 }

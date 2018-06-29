@@ -11,7 +11,7 @@
       "-c"
  ],
     "command": [
-      "cd Script && sh UNIGEWorkflow.sh"
+      "sh UNIGEWorkflow.sh"
  ]
   }
 }

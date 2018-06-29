@@ -1,13 +1,13 @@
 {
   "scripts": [
     {
-      "repoPath": "Script/UNIGEWorkflow.sh",
-      "targetPath": "Script/UNIGEWorkflow.sh",
+      "repoPath": "UNIGEWorkflow.sh",
+      "targetPath": "UNIGEWorkflow.sh",
       "pathType": "FILE"
  },
     {
-      "repoPath": "Script/computeSDGIndicator.py",
-      "targetPath": "Script/computeSDGIndicator.py",
+      "repoPath": "computeSDGIndicator.py",
+      "targetPath": "computeSDGIndicator.py",
       "pathType": "FILE"
  }
   ]
