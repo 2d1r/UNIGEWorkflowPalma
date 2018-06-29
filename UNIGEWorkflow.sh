@@ -8,6 +8,6 @@ ogr2ogr -dialect sqlite -sql "SELECT k.SitRecID, ST_INTERSECTION (k.geometry, w.
 
 ogr2ogr -dialect sqlite -sql "SELECT a.SitRecID, a.geometry, ST_AREA ( ST_TRANSFORM (a.geometry, 2056 ) ) AS area FROM kba_ch_clean a" area_out.shp kba_ch_clean.shp
 
-python computeSDGIndicator.py
+python computeSDGIndicator.py >> output.txt
 
 
